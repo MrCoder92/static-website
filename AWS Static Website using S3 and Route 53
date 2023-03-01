@@ -17,3 +17,11 @@ Acknoeledge the warning and keep the rest as default and select create bucket.
 Click into your bucket name (domain) and select upload to upload your website (in code)
 
 #Enable a static website hosting and direct the domain to the S3 bucket
+Make sure the website is enabled for static website hosting and has the right permissions for users to access it 
+Select properties and scroll all the way to the bottum to Static website hosting
+By default it is disabled, select edit and type the default page for the website; in this case (index.html) and save changes
+
+Now click on permissions to add/attach bucket policies
+click edit and attach your bucket policies and click save changes 
+
+We have now configured the bucket to have a sample website publicly accessible to viewers
