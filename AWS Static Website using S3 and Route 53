@@ -25,3 +25,10 @@ Now click on permissions to add/attach bucket policies
 click edit and attach your bucket policies and click save changes 
 
 We have now configured the bucket to have a sample website publicly accessible to viewers
+Open the sample website to access the webpage 
+
+Change the Amazon provided URL to your custom URL
+Head to Amazon Route 53, click on hosted zone
+click into the domain name to and add additional record to connect the bucket to Route 53
+Select the simple routing policy, for the value the endpoint should be alias to S3 website endpoint, select the region the website is hosted 
+and finally select the S3 endpoint which is already provided 
