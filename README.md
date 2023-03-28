@@ -2,7 +2,7 @@
 AWS Static Website using S3 and Route 53
 In this project, I hosted a Static Website using Amazon S3 and Route 53 while keeping in mind Securities Best Practices, to achive the goal.
 
-# Create custome domain using the Amazon Route 53
+# Create a customize domain using the Amazon Route 53
 Head to the Amazon Route 53 to create/purchase your domain. It can take 10 minutes or maximum 3 days to successfuly activate the domain. 
 
 When successfully activated you will receive a confirmation email. Ones confirmed, head to the Amazon S3 to create your bucket.
@@ -47,9 +47,12 @@ To clean up the resources when you're done, delete the S3 bucket and the Route 5
 
 # Files
 This repository contains the following files:
-`BucketPolicy`: The file which contains the the set of permissions.
-`index.html`: Contains the code for the default page for the website.
-`README.md`: This file.
+
+  `BucketPolicy`: The file which contains the the set of permissions.
+
+  `index.html`: Contains the code for the default page for the website.
+
+  `README.md`: This file.
 
 # Contributing
 If you find any issues or would like to contribute to this project, please open an issue or a pull request on GitHub.
