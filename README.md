@@ -47,7 +47,8 @@ To clean up the resources when you're done, delete the S3 bucket and the Route 5
 
 # Files
 This repository contains the following files:
-
+`BucketPolicy`: The file which contains the the set of permissions.
+`index.html`: Contains the code for the default page for the website.
 `README.md`: This file.
 
 # Contributing
