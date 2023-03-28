@@ -40,7 +40,7 @@ Select the simple routing policy, for the value the endpoint should be alias to 
 
 If you have configured SSL for your domain, you can obtain an SSL certificate using the AWS Certificate Manager.
 
-Once your DNS settings have propagated, you can view your website at the URL http://<YOUR-DOMAIN-NAME> or https://<YOUR-DOMAIN-NAME> if you have configured SSL.
+Once your DNS settings have propagated, you can view your website at the URL `http://<YOUR-DOMAIN-NAME>` or `https://<YOUR-DOMAIN-NAME>` if you have configured SSL.
 
 # Clean Up
 To clean up the resources when you're done, delete the S3 bucket and the Route 53 hosted zone.
